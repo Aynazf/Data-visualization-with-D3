@@ -1,0 +1,87 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	vertical-align: baseline;
+   font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: inherit;
+}
+body {
+  font-weight: 300;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  background: #383838;
+  color:  #EAE3CB;
+}
+
+
+h1 {
+	font-size:150%;
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.title {
+	font-size: 30px;
+	font-style: italic;
+	color: gray;
+	margin-top:10px;
+	margin-bottom:100px;
+	margin-right: 220px;
+	float: right;
+	color: #FCF6F5FF;
+	display: block;
+}
+.date{
+	font-weight: bold;
+	font-size: 36px;
+	margin-right: 250px;
+	color: #D6ED17FF;
+	margin-top:-20px;
+	float: right;
+}
+#everything{
+	width:600px;
+	margin:20px;
+}
+#chart{
+	width:600px;
+	height:400px;
+}
+#chart line{
+	opacity:.5;
+}
+.bar{
+	fill:#eaeaea;
+}
+text.label{
+	fill: #777777;
+	color: #777777;
+	font-size: 12px;
+	font-weight: bold;
+}
+text.category{
+	fill: #666666;
+	font-size: 14px;
+}
+.domain {
+	fill: none;
+	stroke: none;
+}
